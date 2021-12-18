@@ -1,0 +1,57 @@
+body {
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+}
+
+/* buttons */
+.quotation-mark {
+  color: #BF4413;
+}
+
+.container-fluid {
+  padding: 7%;
+}
+
+/* Navigation Bar */
+.brand-title {
+  background-color: #F07E26;
+  padding: 10px;
+  margin-left: 6.25%;
+}
+
+.navbar {
+  margin-bottom: 3px;
+}
+
+.nav-item {
+  padding: 0 10px;
+}
+
+/* Title Section */
+.title-box {
+  position: relative;
+  padding: 5%;
+  margin-top: 50px;
+}
+
+.quotation-mark-left {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.quotation-mark-right {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+img {
+  width: 98%;
+  margin: 10px 30px;
+}
