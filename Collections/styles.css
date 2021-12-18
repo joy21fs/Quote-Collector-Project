@@ -1,0 +1,92 @@
+body {
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+
+}
+
+
+
+/* buttons */
+.btn {
+  background-color: #BF4413;
+  color: #fff;
+  letter-spacing: 2px;
+  width: 20%;
+}
+
+.quotation-mark {
+  color: #BF4413;
+
+}
+
+.container-fluid {
+  padding: 7% ;
+
+}
+
+/* Cards */
+.column {
+  padding: 0 2%;
+}
+
+.card {
+  height: 100%;
+  border-style: none;
+}
+
+.card-title {
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+
+/* Navigation Bar */
+.brand-title {
+  background-color: #F07E26;
+  padding: 10px;
+  margin-left: 6.25%;
+}
+
+.navbar {
+  margin-bottom: 3px;
+}
+.nav-item {
+  padding: 0 10px;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+.colored-section {
+  background-color: #FFC778;
+}
+
+
+/* Title Section */
+
+.title-box {
+  position: relative;
+  padding: 5%;
+  margin-top: 50px;
+}
+.quotation-mark-left {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.quotation-mark-right {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+img {
+  width: 98%;
+  margin: 10px 30px;
+}

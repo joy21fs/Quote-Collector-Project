@@ -1,0 +1,269 @@
+body {
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 900;
+
+}
+
+
+
+/* buttons */
+.btn {
+  background-color: #BF4413;
+  color: #fff;
+  letter-spacing: 2px;
+  width: 20%;
+}
+
+.quotation-mark {
+  color: #BF4413;
+
+}
+
+.container-fluid {
+  padding: 7% 15%;
+
+}
+
+a {
+  color:inherit;
+}
+
+a:hover {
+  color: inherit;
+}
+
+/* Cards */
+.column {
+  padding: 0 2%;
+}
+
+.card {
+  height: 100%;
+  border-style: none;
+}
+
+.card-title {
+  letter-spacing: 2px;
+  font-weight: 700;
+}
+
+/* Navigation Bar */
+.brand-title {
+  background-color: #F07E26;
+  padding: 10px;
+  margin-left: 6.25%;
+}
+
+.navbar {
+  margin-bottom: 3px;
+}
+.nav-item {
+  padding: 0 10px;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+.colored-section {
+  background-color: #FFC778;
+}
+
+
+/* Title Section */
+
+#title .container-fluid {
+  padding: 3% 7% 10%;
+  text-align: left;
+
+}
+
+.title-box {
+  position: relative;
+  padding-top: 40px;
+  }
+
+.title-box .quotation-mark {
+  position: relative;
+  left: 70%;
+  margin-top: 30px;
+
+}
+
+.title-image {
+  opacity: 30%;
+  float: right;
+  width: 52%;
+  position: absolute;
+  right: 50px;
+  bottom: -28%;
+}
+
+.header {
+  font-size: 4rem;
+  padding-left: 10px;
+  line-height: 1.5;
+}
+
+
+
+/* Features Section */
+#features {
+  position: relative;
+  margin: 0 auto;
+}
+
+
+
+#features .card {
+  background-color: rgba(255, 199, 120,0);
+
+  text-align: left;
+}
+
+
+
+#features .card-text {
+  width: 85%;
+}
+
+.features-top-box {
+  position: relative;
+  padding: 40px 0 15px;
+  font-size: 1.2rem;
+}
+.card-body .quotation-mark {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* Quote Collection Section */
+.collection-header {
+  font-size: 3rem;
+  padding-bottom: 5%;
+}
+
+.circle-containers{
+  border-radius: 100%;
+  width: 180px;
+  height: 180px;
+  position: relative;
+  display: inline-block;
+  margin: 30px;
+  color: #fff;
+  font-size: 1rem;
+
+}
+
+
+.collection-titles{
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+
+}
+
+.collection-titles:hover {
+  color: #000;
+  font-weight: bolder;
+}
+
+.odd-circle {
+  background-color: #F07E26;
+}
+
+.even-circle {
+  background-color: #FFC778;
+}
+
+/* Testimonial Section */
+#testimonial-carousel {
+  font-weight: 300;
+}
+.test-image {
+  width: 10%;
+  padding: 1%;
+  margin-right: 2%;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.testimonial-text-box {
+  position: relative;
+  padding: 5%;
+}
+.quotation-mark-left {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.quotation-mark-right {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* Steps Section */
+
+
+.card-header {
+  background-color: #fff;
+  border-style: none;
+  color: #BF4413;
+
+}
+
+#steps .card-text {
+  width: 80%;
+  margin: 20px auto 0;
+  padding: 0 2%;
+}
+
+
+
+.card-step {
+  font-size: 3rem;
+}
+
+/* Call to Action Section */
+#cta .btn {
+  margin-top: 30px;
+}
+
+#cta {
+  padding-bottom: 3%;
+}
+
+/* Footer Section */
+.footer-icon {
+  margin: 20px 10px;
+}
+
+#footer .container-fluid {
+
+  padding: 2% 0;
+  }
+}
+
+
+
+@media (max-width: 800px) {
+  .title-image {
+    bottom: -15%;
+  }
+}
+
+@media (max-width: 660px) {
+  .title-image {
+    bottom: -10%;
+  }
+}
