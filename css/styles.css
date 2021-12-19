@@ -223,10 +223,13 @@ a:hover {
   background-color: #fff;
   border-style: none;
   color: #BF4413;
+  padding-bottom: 0;
 
 }
 
-
+#steps .card-body {
+  padding-top: 1rem;
+}
 
 
 
