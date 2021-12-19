@@ -176,11 +176,11 @@ a:hover {
   font-weight: bolder;
 }
 
-.even-circle {
+.odd-circle {
   background-color: #F07E26;
 }
 
-.odd-circle {
+.even-circle {
   background-color: #FFC778;
 }
 
@@ -293,7 +293,7 @@ a:hover {
   }
 }
 
-@media (max-width: 680px) {
+@media (max-width: 675px) {
   .circle1, .circle4, .circle5 {
     background-color: #F07E26;
   }
