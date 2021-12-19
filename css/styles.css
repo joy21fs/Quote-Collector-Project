@@ -151,11 +151,11 @@ a:hover {
 
 .circle-containers{
   border-radius: 100%;
-  width: 180px;
-  height: 180px;
+  width: 11.25rem;
+  height: 11.25rem;
   position: relative;
   display: inline-block;
-  margin: 30px;
+  margin: 1.875rem;
   color: #fff;
   font-size: 1rem;
 
@@ -176,11 +176,11 @@ a:hover {
   font-weight: bolder;
 }
 
-.odd-circle {
+.even-circle {
   background-color: #F07E26;
 }
 
-.even-circle {
+.odd-circle {
   background-color: #FFC778;
 }
 
@@ -265,5 +265,40 @@ a:hover {
 @media (max-width: 660px) {
   .title-image {
     bottom: -10%;
+  }
+}
+
+@media (max-width: 1060px) {
+  .circle-containers{
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
+    margin: 25px;
+  }
+}
+
+@media (max-width: 930px) {
+  .circle-containers{
+    border-radius: 100%;
+    width: 120px;
+    height: 120px;
+    margin: 20px;
+  }
+}
+
+@media (max-width: 710px) {
+  .circle-containers{
+    border-radius: 100%;
+    margin: 1rem;
+  }
+}
+
+@media (max-width: 680px) {
+  .circle1, .circle4, .circle5 {
+    background-color: #F07E26;
+  }
+
+  .circle2, .circle3, .circle6 {
+    background-color: #FFC778;
   }
 }
