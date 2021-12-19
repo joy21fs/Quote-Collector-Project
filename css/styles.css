@@ -6,10 +6,7 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Lato', sans-serif;
   font-weight: 900;
-
 }
-
-
 
 /* buttons */
 .btn {
@@ -21,16 +18,14 @@ h1, h2, h3, h4, h5, h6 {
 
 .quotation-mark {
   color: #BF4413;
-
 }
 
 .container-fluid {
   padding: 7% 15%;
-
 }
 
 a {
-  color:inherit;
+  color: inherit;
 }
 
 a:hover {
@@ -45,6 +40,7 @@ a:hover {
 .card {
   height: 100%;
   border-style: none;
+  text-align: left;
 }
 
 .card-title {
@@ -66,6 +62,7 @@ a:hover {
 .navbar {
   margin-bottom: 3px;
 }
+
 .nav-item {
   padding: 0 10px;
 }
@@ -78,25 +75,21 @@ a:hover {
   background-color: #FFC778;
 }
 
-
 /* Title Section */
-
 #title .container-fluid {
   padding: 3% 7% 10%;
   text-align: left;
-
 }
 
 .title-box {
   position: relative;
   padding-top: 40px;
-  }
+}
 
 .title-box .quotation-mark {
   position: relative;
   left: 70%;
   margin-top: 30px;
-
 }
 
 .title-image {
@@ -114,31 +107,22 @@ a:hover {
   line-height: 1.5;
 }
 
-
-
 /* Features Section */
 #features {
   position: relative;
   margin: 0 auto;
 }
 
-
-
 #features .card {
-  background-color: rgba(255, 199, 120,0);
-
-  text-align: left;
+  background-color: rgba(255, 199, 120, 0);
 }
-
-
-
-
 
 .features-top-box {
   position: relative;
   padding: 40px 0 15px;
   font-size: 1.2rem;
 }
+
 .card-body .quotation-mark {
   position: absolute;
   right: 0;
@@ -151,7 +135,7 @@ a:hover {
   padding-bottom: 5%;
 }
 
-.circle-containers{
+.circle-containers {
   border-radius: 100%;
   width: 11.25rem;
   height: 11.25rem;
@@ -160,17 +144,13 @@ a:hover {
   margin: 1.875rem;
   color: #fff;
   font-size: 1rem;
-
 }
 
-
-.collection-titles{
-
+.collection-titles {
   position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%,-50%);
-
+  transform: translate(-50%, -50%);
 }
 
 .collection-titles:hover {
@@ -190,6 +170,7 @@ a:hover {
 #testimonial-carousel {
   font-weight: 300;
 }
+
 .test-image {
   width: 10%;
   padding: 1%;
@@ -202,6 +183,7 @@ a:hover {
   position: relative;
   padding: 5%;
 }
+
 .quotation-mark-left {
   position: absolute;
   left: 0;
@@ -215,23 +197,16 @@ a:hover {
 }
 
 /* Steps Section */
-#steps {
-  text-align: left;
-}
-
 .card-header {
   background-color: #fff;
   border-style: none;
   color: #BF4413;
   padding-bottom: 0;
-
 }
 
 #steps .card-body {
   padding-top: 1rem;
 }
-
-
 
 .card-step {
   font-size: 2.5rem;
@@ -252,12 +227,9 @@ a:hover {
 }
 
 #footer .container-fluid {
-
   padding: 2% 0;
-  }
 }
-
-
+}
 
 @media (max-width: 800px) {
   .title-image {
@@ -272,7 +244,7 @@ a:hover {
 }
 
 @media (max-width: 1060px) {
-  .circle-containers{
+  .circle-containers {
     border-radius: 100%;
     width: 150px;
     height: 150px;
@@ -281,7 +253,7 @@ a:hover {
 }
 
 @media (max-width: 930px) {
-  .circle-containers{
+  .circle-containers {
     border-radius: 100%;
     width: 120px;
     height: 120px;
@@ -290,7 +262,7 @@ a:hover {
 }
 
 @media (max-width: 710px) {
-  .circle-containers{
+  .circle-containers {
     border-radius: 100%;
     margin: 1rem;
   }
